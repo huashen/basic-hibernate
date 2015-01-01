@@ -1,0 +1,1 @@
+使用maven构建了数据库访问基本类库，基于hibernate4
