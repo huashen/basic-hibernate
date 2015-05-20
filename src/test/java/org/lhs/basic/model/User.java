@@ -1,4 +1,4 @@
-package org.konghao.basic.model;
+package org.lhs.basic.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

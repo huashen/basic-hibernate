@@ -1,4 +1,4 @@
-package org.konghao.basic.model;
+package org.lhs.basic.model;
 
 import java.util.List;
 

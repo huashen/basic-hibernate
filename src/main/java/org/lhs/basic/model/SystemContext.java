@@ -1,4 +1,4 @@
-package org.konghao.basic.model;
+package org.lhs.basic.model;
 
 /*
  * 用来传递列表对象的ThreadLocal

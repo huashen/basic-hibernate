@@ -1,4 +1,4 @@
-package org.konghao.basic.dao;
+package org.lhs.basic.dao;
 
 import java.lang.reflect.ParameterizedType;
 import java.math.BigInteger;
@@ -14,8 +14,8 @@ import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.transform.Transformers;
-import org.konghao.basic.model.Pager;
-import org.konghao.basic.model.SystemContext;
+import org.lhs.basic.model.Pager;
+import org.lhs.basic.model.SystemContext;
 
 public class BaseDao<T> implements IBaseDao<T> 
 {

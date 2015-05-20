@@ -1,10 +1,10 @@
-package org.konghao.basic.test.util;
+package org.lhs.basic.test.util;
 
 import java.util.List;
 
 import junit.framework.Assert;
 
-import org.konghao.basic.model.User;
+import org.lhs.basic.model.User;
 
 public class EntitiesHelper 
 {

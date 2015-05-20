@@ -1,4 +1,4 @@
-package org.konghao.basic.test.util;
+package org.lhs.basic.test.util;
 
 import java.io.File;
 import java.io.FileInputStream;

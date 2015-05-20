@@ -1,9 +1,9 @@
-package org.konghao.basic.dao;
+package org.lhs.basic.dao;
 
 import java.util.List;
 import java.util.Map;
 
-import org.konghao.basic.model.Pager;
+import org.lhs.basic.model.Pager;
 
 /*
  * 公共Dao处理对象，包含了hibernate的所有基本操作和对sql的操作

@@ -1,6 +1,7 @@
-package org.konghao.basic.dao;
+package org.lhs.basic.dao;
 
-import org.konghao.basic.model.User;
+import org.lhs.basic.dao.BaseDao;
+import org.lhs.basic.model.User;
 import org.springframework.stereotype.Repository;
 
 @Repository("userDao")

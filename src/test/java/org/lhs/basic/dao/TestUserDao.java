@@ -1,4 +1,4 @@
-package org.konghao.basic.dao;
+package org.lhs.basic.dao;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -23,11 +23,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.konghao.basic.model.Pager;
-import org.konghao.basic.model.SystemContext;
-import org.konghao.basic.model.User;
-import org.konghao.basic.test.util.AbstractDbUnitTestCase;
-import org.konghao.basic.test.util.EntitiesHelper;
+import org.lhs.basic.model.Pager;
+import org.lhs.basic.model.SystemContext;
+import org.lhs.basic.model.User;
+import org.lhs.basic.test.util.AbstractDbUnitTestCase;
+import org.lhs.basic.test.util.EntitiesHelper;
 import org.springframework.orm.hibernate4.SessionHolder;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
