@@ -11,7 +11,7 @@ public class DbUtil
 	public static Connection getConnection() throws SQLException 
 	{
 		Connection con = null;
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cms_test", "root", "1234");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "1234");
 		return con;
 	}
 	
