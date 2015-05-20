@@ -78,6 +78,7 @@ public class AbstractDbUnitTestCase
 	
 	protected void resumeTable() throws FileNotFoundException, DatabaseUnitException, SQLException
 	{
+		System.out.println(tempFile);
 		IDataSet ds = new FlatXmlDataSet(new FlatXmlProducer(new InputSource(new FileInputStream(tempFile))));
 		DatabaseOperation.CLEAN_INSERT.execute(dbunitCon, ds);
 	}

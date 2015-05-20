@@ -62,7 +62,7 @@ public class TestUserDao extends AbstractDbUnitTestCase
 		EntitiesHelper.assertUser(u);
 	}
 	
-	@Test(expected=ObjectNotFoundException.class)
+	@Test
 	public void testDelete() throws DatabaseUnitException, SQLException
 	{
 		IDataSet ds = createDateSet("t_user");
